@@ -12,13 +12,13 @@
     "paths": {
       "@/*": ["*"]
     },
-    "jsxImportSource": "preact",
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "jsxImportSource": "preact",
     "jsx": "preserve",
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment"
