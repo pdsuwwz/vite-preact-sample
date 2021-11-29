@@ -1,2 +1,2 @@
-# vite-react-unit
-Unit Testing for React 17.x + TS
+# vite-preact-sample
+⚛️ Sample app for Vite 2.x + Preact 10.x

@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from 'preact/hooks'
+import logo from '@/logo.svg'
+import '@/App.css'
 
-function App() {
+const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+        <p>Hello Vite + Preact!</p>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
@@ -26,6 +26,15 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React
+          </a>
+          {' | '}
+          <a
+            className="App-link"
+            href="https://preactjs.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn Preact
           </a>
           {' | '}
           <a
