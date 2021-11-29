@@ -5,6 +5,9 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig(() => {
   return {
+    base: process.env.GH_PAGES === 'gh_pages'
+    ? ''
+    : '/',
     plugins: [
       preactRefresh()
     ],
