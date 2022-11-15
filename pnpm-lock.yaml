@@ -11,22 +11,22 @@ specifiers:
   cross-env: ^7.0.3
   preact: ^10.10.0
   typescript: ^4.7.4
-  vite: 3.1.6
+  vite: 3.2.4
 
 dependencies:
   preact: 10.10.0
 
 devDependencies:
   '@babel/core': 7.18.9
-  '@preact/preset-vite': 2.3.0_m7dhmevctizxwsrisvmrxct4sm
-  '@prefresh/vite': 2.2.8_preact@10.10.0+vite@3.1.6
+  '@preact/preset-vite': 2.3.0_uc64rmtdtuw22gmuxzcwwmwyfq
+  '@prefresh/vite': 2.2.8_preact@10.10.0+vite@3.2.4
   '@tsconfig/recommended': 1.0.1
   '@types/node': 16.11.45
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   cross-env: 7.0.3
   typescript: 4.7.4
-  vite: 3.1.6
+  vite: 3.2.4_@types+node@16.11.45
 
 packages:
 
@@ -327,7 +327,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@preact/preset-vite/2.3.0_m7dhmevctizxwsrisvmrxct4sm:
+  /@preact/preset-vite/2.3.0_uc64rmtdtuw22gmuxzcwwmwyfq:
     resolution: {integrity: sha512-0kOuz7wdrQLqrPlyI/Ypw9IWDF2++GGcOHMRBYO5T2w2+dheelaBH+XrIN/okqdsGIflzFIFNyIGubo5BC8wbQ==}
     peerDependencies:
       '@babel/core': 7.x
@@ -336,13 +336,13 @@ packages:
       '@babel/core': 7.18.9
       '@babel/plugin-transform-react-jsx': 7.18.6_@babel+core@7.18.9
       '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.18.9
-      '@prefresh/vite': 2.2.8_preact@10.10.0+vite@3.1.6
+      '@prefresh/vite': 2.2.8_preact@10.10.0+vite@3.2.4
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2_@babel+core@7.18.9
       debug: 4.3.4
       kolorist: 1.5.1
       resolve: 1.22.1
-      vite: 3.1.6
+      vite: 3.2.4_@types+node@16.11.45
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -364,7 +364,7 @@ packages:
     resolution: {integrity: sha512-Mb9abhJTOV4yCfkXrMrcgFiFT7MfNOw8sDa+XyZBdq/Ai2p4Zyxqsb3EgHLOEdHpMj6J9aiZ54W8H6FTam1u+A==}
     dev: true
 
-  /@prefresh/vite/2.2.8_preact@10.10.0+vite@3.1.6:
+  /@prefresh/vite/2.2.8_preact@10.10.0+vite@3.2.4:
     resolution: {integrity: sha512-yGGa+PKPYPTzMlxgQ8aBgxw9K69I8X4iQ0E6KOcIvls96WKqKLLOYZW9SUgCve446jpUXvc9udviPBZjCeZIIQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -376,7 +376,7 @@ packages:
       '@prefresh/utils': 1.1.3
       '@rollup/pluginutils': 4.2.1
       preact: 10.10.0
-      vite: 3.1.6
+      vite: 3.2.4_@types+node@16.11.45
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -831,8 +831,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss/8.4.16:
-    resolution: {integrity: sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==}
+  /postcss/8.4.19:
+    resolution: {integrity: sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.4
@@ -852,8 +852,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/2.78.1:
-    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
+  /rollup/2.79.1:
+    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -920,29 +920,36 @@ packages:
       picocolors: 1.0.0
     dev: true
 
-  /vite/3.1.6:
-    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
+  /vite/3.2.4_@types+node@16.11.45:
+    resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
+      sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
         optional: true
       stylus:
         optional: true
+      sugarss:
+        optional: true
       terser:
         optional: true
     dependencies:
+      '@types/node': 16.11.45
       esbuild: 0.15.10
-      postcss: 8.4.16
+      postcss: 8.4.19
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.79.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
