@@ -6,8 +6,8 @@ specifiers:
   '@prefresh/vite': ^2.2.8
   '@tsconfig/recommended': ^1.0.1
   '@types/node': ^18.0.0
-  '@types/react': 18.0.28
-  '@types/react-dom': 18.0.10
+  '@types/react': 18.3.11
+  '@types/react-dom': 18.3.1
   cross-env: ^7.0.3
   preact: ^10.10.0
   typescript: ^4.7.4
@@ -22,8 +22,8 @@ devDependencies:
   '@prefresh/vite': 2.2.8_preact@10.10.0+vite@3.2.5
   '@tsconfig/recommended': 1.0.1
   '@types/node': 18.11.10
-  '@types/react': 18.0.28
-  '@types/react-dom': 18.0.10
+  '@types/react': 18.3.11
+  '@types/react-dom': 18.3.1
   cross-env: 7.0.3
   typescript: 4.7.4
   vite: 3.2.5_@types+node@18.11.10
@@ -401,22 +401,17 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.10:
-    resolution: {integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==}
+  /@types/react-dom/18.3.1:
+    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
     dependencies:
-      '@types/react': 18.0.28
+      '@types/react': 18.3.11
     dev: true
 
-  /@types/react/18.0.28:
-    resolution: {integrity: sha512-RD0ivG1kEztNBdoAK7lekI9M+azSnitIn85h4iOiaLjaTrMjzslhaqCGaI4IyCJ1RljWiLCEu4jyrLLgqxBTew==}
+  /@types/react/18.3.11:
+    resolution: {integrity: sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==}
     dependencies:
       '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.2
       csstype: 3.1.0
-    dev: true
-
-  /@types/scheduler/0.16.2:
-    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
   /ansi-styles/3.2.1:
